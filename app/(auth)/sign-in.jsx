@@ -47,7 +47,7 @@ const SignIn = () => {
               <Text className='text-lg text-gray-100 font-pregular'>
                 Don't have an account
               </Text>
-              <Link className='text-lg font-psemibold text-secondary-100' >Sign Up</Link>
+              <Link href='/sign-up' className='text-lg font-psemibold text-secondary-100' >Sign Up</Link>
            </View>
 
         </View>

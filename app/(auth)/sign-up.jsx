@@ -6,9 +6,12 @@ import images from '../../constants/images'
 import FormField from '../../components/FormField'
 import CustomButton from './../../components/CustomButton';
 import { Link } from 'expo-router'
+import { createUser } from '../../lib/appwriteconfig'
 
 const SignUp = () => {
-  const submit= ()=>{}
+  const submit= ()=>{
+    createUser()
+  }
   const [isSubmiting, setIsSubmiting] = useState(false)
   const [passwords, setPasswords] = useState({p1: '', p2: ''})
 
